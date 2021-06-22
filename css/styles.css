@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.click_me_button {
+  margin-top: 50vh;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #fff;
+  border-radius: 0.12em;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: transparent;
+  outline-style: none;
+}
+
+.click_me_button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+}
